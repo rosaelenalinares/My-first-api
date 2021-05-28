@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(102, 101, 101);
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.fa, .fas {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.search {
+    padding-right: 30px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.btn,
+.buy {
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(54, 52, 52);
+    background-color: thistle;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: thistle;
+}
+
+.buy {
+    width: 200px;
+    height: 50px;
+    background-color: ;
+}
+
+button .buy {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.buy:hover {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 201;
+    height: 51px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/19/04/40/moon-1527501_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99;
+    height: 51px;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.post:hover {
+    background-color: rosybrown;
+    width: 500px
+}
+
+.post p {
+    text-align: left;
+    max-width: 100%;
+    color: black;
+}
+
+.post h1 {
+    color: rgb(102, 101, 101);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+
+.rank {
+    font-weight: bold;
+    background-color: beige;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
